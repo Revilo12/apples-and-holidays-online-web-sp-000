@@ -63,7 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
       # new_holiday_name.collect do |word| #capitalizes each word 
       #   word.capitalize
       # end
-      puts "\t#{(holiday.to_s.split("_").collect {|w| w.capitalize}).join(" ")}: #{things.join(", ")}\n"
+      puts "#{(holiday.to_s.split("_").collect {|w| w.capitalize}).join(" ")}: #{things.join(", ")}"
     end
   end
 end
